@@ -15,7 +15,7 @@
             --text-color: #333333;
             --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
             --transition: all 0.3s ease;
-            --gradient: linear-gradient(135deg, #ff0050, #69c9d0);
+/*             --gradient: linear-gradient(135deg, #ff0050, #69c9d0); */
             --copy-btn-bg: rgba(105, 201, 208, 0.2);
             --copy-btn-hover: rgba(105, 201, 208, 0.3);
         }
@@ -27,17 +27,20 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             -webkit-tap-highlight-color: transparent !important;
             transform: translateY(0px);
+            scroll-behavior:smooth;
         }
 
         body {
-            background: var(--gradient);
-            background-attachment: fixed;
+/*             background: var(--gradient); */
+            background:#CCCCCC
+            background-attachment: scroll;
             color: var(--text-color);
             line-height: 1.6;
             padding: 0;
             margin: 0;
             
-            min-height: 100vh;
+/*             min-height: 100vh; */
+            height: 100vh;
              display: flex;
             flex-direction: column;
             
